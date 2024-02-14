@@ -1,0 +1,71 @@
+﻿body {
+    background-image: url(../image/choosing-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h4 {
+    font-size: 25px;
+    line-height: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #31a0c2;
+}
+/* --------------------------- */
+/* The panel of the login */
+.formlogin {
+    background-color: rgba(250,250,250,0.1);
+    display: inline-block;
+    margin-left: 750px;
+    margin-right: auto;
+    margin-top: 250px;
+    height: 340px;
+    /* End of the panel of login */
+    /* ----------------------------- */
+}
+
+.login {
+    width: 400px;
+    height: 50px;
+    font-size: large;
+    border-style: hidden;
+    background-color: rgba(250,250,250,0.1);
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #31a0c2;
+}
+
+.Forgot {
+    color: #31a0c2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+/* Edit in the button */
+.sub {
+    width: 150px;
+    height: 50px;
+    margin-left: 120px;
+    color: white;
+    background-color: #31a0c2;
+    border-style: hidden;
+    cursor: pointer;
+}
+/* ------------------- */
+button:hover {
+    text-decoration: underline;
+}
+/* End of edit the button */
+.grad {
+    background-color: #31a0c2;
+    border-radius: 50px;
+    margin-right: 1000px;
+    margin-left: 18px;
+    width: 60;
+    height: 65;
+}

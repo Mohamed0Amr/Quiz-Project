@@ -1,0 +1,96 @@
+﻿body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('../image/choosing-bg.jpg');
+    /* text-align: center; */
+}
+
+h1 {
+    font-size: 50px;
+    /* text-align: center; */
+    color: #31a0c2;
+}
+
+h3 {
+    color: #31a0c2;
+    font-size: 24px;
+}
+
+h2 {
+    color: chartreuse;
+    font-size: 30px;
+}
+
+p {
+    color: #fdfdfd;
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+.video-container {
+    position: relative;
+    width: 1400px;
+    height: 700px;
+    /* padding-bottom: 56.25%; */
+    border: 4px solid white;
+    border-radius: 6px;
+    margin-left: 200px;
+}
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.enroll-link {
+    display: block;
+    margin-top: 20px;
+    color: #06c;
+    text-decoration: none;
+}
+
+.quiz-link {
+    display: block;
+    margin-top: 20px;
+    color: #06c;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: #31a0c2;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: bold;
+}
+
+.certificate {
+    display: none;
+    margin-top: 20px;
+}
+
+    .certificate p {
+        margin: 0;
+    }
+
+    .certificate h3 {
+        margin-bottom: 10px;
+    }
+
+    .certificate p strong {
+        color: #06c;
+    }
+
+.quiz-container {
+    display: none;
+}
+
+.certificate {
+    display: none;
+}

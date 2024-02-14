@@ -1,0 +1,50 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('../image/choosing-bg.jpg');
+}
+
+div {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.question {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.option {
+    margin-bottom: 5px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #06c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    background-color: #31a0c2;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border-style: none;
+    font-weight: bold;
+}

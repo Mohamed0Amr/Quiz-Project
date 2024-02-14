@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+</head>
+<title>Mobile Development Course</title>
+<link rel="stylesheet" href="Css/JavaWebDeveloper.css">
+<body>
+    <h1>Java Web Developer</h1>
+
+    <h3>Course Information</h3>
+    <p>Learn enterprise scale back-end development with Java, and be</p>
+    <p>prepared for the software engineering jobs that are in demand at a</p>
+    <p>majority of Fortune 500 companies like Google, Amazon, Netflix, and more.</p>
+    <h2>Course Video</h2>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mAtkPQO1FcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <h2>Number of Visitors</h2>
+    <p id="visitor-count">0</p>
+
+    <h2>Enroll Now</h2>
+    <a class="enroll-link" href="https://www.example.com">Click here to enroll in the web course</a>
+
+    <h2>Take the Quiz</h2>
+    <a class="quiz-link" href="quizjavswd.html">
+        <button>Take Quiz</button>
+    </a>
+
+
+    <script>
+    // Track visitor count
+    let visitorCountJWB = 0;
+    if (localStorage.getItem("visitorCountJWB")) {
+      visitorCountJWB = parseInt(localStorage.getItem("visitorCountJWB"));
+    }
+    visitorCountJWB++;
+    localStorage.setItem("visitorCountJWB", visitorCountJWB);
+    document.getElementById("visitor-count").textContent = visitorCountJWB;
+
+     // Quiz functionality
+    // const quizStartBtn = document.querySelector(".quiz-start-btn");
+    //const quizContainer = document.querySelector(".quiz-container");
+    //const certificateContainer = document.querySelector(".certificate");
+
+    //quizStartBtn.addEventListener("click", () => {
+      //quizContainer.style.display = "block";
+      //quizStartBtn.style.display = "none";
+    //});
+
+    // On quiz completion, store certificate data and display certificate
+
+
+
+    </script>
+</body>
+</html>

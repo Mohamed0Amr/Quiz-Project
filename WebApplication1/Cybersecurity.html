@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+</head>
+<title>Cybersecurity Course</title>
+<link rel="stylesheet" href="Css/Cybersecurity.css">
+<body>
+    <h1>Cybersecurity Course</h1>
+
+    <h3>Course Information</h3>
+    <p>Take your first step toward a career in cybersecurity and learn the skills required to become a security professional </p>
+    <p>with the Introduction to Cybersecurity  program.</p>
+    <p>In this program, you will learn how to evaluate, maintain, and monitor the security of computer systems. </p>
+    <p> You’ll also learn how to assess threats, respond to incidents, and implement security controls to reduce risk and meet security compliance goals.</p>
+    <h2>Course Video</h2>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GT0daScxO18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <h2>Number of Visitors</h2>
+    <p id="visitor-count">0</p>
+
+    <h2>Enroll Now</h2>
+    <a class="enroll-link" href="https://www.example.com">Click here to enroll in the web course</a>
+
+    <h2>Take the Quiz</h2>
+    <a class="quiz-link" href="quizcb.html">
+        <button>Take Quiz</button>
+    </a>
+
+
+
+    <script>
+    // Track visitor count
+    let visitorcountCYS = 0;
+    if (localStorage.getItem("visitorcountCYS")) {
+      visitorcountCYS = parseInt(localStorage.getItem("visitorcountCYS"));
+    }
+    visitorcountCYS++;
+    localStorage.setItem("visitorcountCYS", visitorcountCYS);
+    document.getElementById("visitor-count").textContent = visitorcountCYS;
+
+
+
+
+    </script>
+</body>
+</html>

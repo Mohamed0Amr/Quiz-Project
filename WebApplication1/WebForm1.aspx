@@ -1,0 +1,128 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication1.WebForm1" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Css/Home.css">
+</head>
+<body>
+<form>
+    
+    <form method="get">
+<header>
+    <div class="bar">
+    <table>
+        <tr>
+            <td>
+                <img class="grad" src="image/pngwing.com.png" alt="Education" width="60" height="65">  
+            </td>
+           
+       
+
+            <td>
+                <a href="Register.html">
+                    <button class=" buttom  " type="button" >Logout</button>
+                    </a>
+            </td>
+        </tr>
+    </table>
+    </div>
+<!-- Create a courses in the home page -->
+<h1>Our courses</h1>
+<table>
+   
+    <tr class="all">
+        
+        <td>
+            <!-- The first Course -->
+            
+            <div class="item1">
+                
+                <img class="img" src="image/courses-03.jpg" alt="Course" >
+                <div class="down content">
+            <br><h4>Learn AI</h4><br>
+            <p>There is even a camp for learning how to pilot, maintain and repair a drone or a music tech camp that uses recording>
+            </p>
+            <br>
+            <a class="pay" href="ai.html">Pay->></a>
+            <br><br>
+            <div class="author-image">
+                <img src="image/author-05.png" alt="Author 5">
+                
+              </div>
+              </div>
+            </div>
+        </td>
+        <td>
+            <!-- End The fist -->
+            <!-- -------------------------------- -->
+            <!-- The Second Course -->
+            <div class="item2">
+                <img class="img" src="image/courses-05.jpg" alt="Course" >
+                <div class="down content">
+           <br> <h4>Cyber Security</h4><br>
+            <p>There is even a camp for learning how to pilot, maintain and repair a drone or a music tech camp that uses recording
+            </p>
+            <br>
+            <a class="pay" href="Cybersecurity.html">Pay->></a>
+            <br><br>
+            <div class="author-image">
+                <img src="image/author-01.png" alt="Author 5">
+              </div>
+              </div>
+            </div>
+            
+        </td>
+        <!-- End the Second -->
+        <!-- ---------------------------- -->
+        <!-- The third course -->
+        <td>
+        <div class="item3">
+            <img class="img" src="image/courses-02.jpg" alt="Course" >
+            <div class="down content">
+        <br><h4>Web Development</h4><br>
+        <p>There is even a camp for learning how to pilot, maintain and repair a drone or a music tech camp that uses recording
+        </p>
+        <br>
+        <a class="pay" href="web.html">Pay->></a>
+        <br><br>
+        <div class="author-image">
+            <img src="image/author-03.png" alt="Author 5">
+          </div>
+          </div>
+        </div>
+    
+        </td>
+          <!-- End the Third -->
+        <!-- ---------------------------- -->
+        <!-- The fourth course -->
+        <td>
+            <div class="item4">
+                <img class="img" src="image/images.png" alt="Course" >
+                <div class="down content">
+            <br><h4>Java Web Development</h4><br>
+            <p>There is even a camp for learning how to pilot, maintain and repair a drone or a music tech camp that uses recording
+            </p>
+            <br>
+            <a class="pay" href="JavaWebDeveloper.html">Pay->></a>
+            <br><br>
+            <div class="author-image">
+                <img src="image/author-03.png" alt="Author 5">
+              </div>
+              </div>
+            </div>
+        
+            </td>
+  
+        <!-- End the fourth -->
+    </tr>
+</table>
+</header>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,86 @@
+﻿body {
+    background-image: url(../image/main-slider-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h4 {
+    font-size: 40px;
+    line-height: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #31a0c2;
+}
+
+.formlogin {
+    background-color: rgba(250,250,250,0.1);
+    margin-left: 700px;
+    margin-top: 60px;
+    margin-right: 700px;
+}
+
+.login {
+    width: 497px;
+    height: 50px;
+    font-size: large;
+    border-style: hidden;
+    background-color: rgba(250,250,250,0.1);
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #31a0c2;
+}
+
+.Forgot {
+    color: #31a0c2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    align-self: center;
+}
+
+/* Edit on the button */
+.sub {
+    width: 150px;
+    height: 50px;
+    margin-left: 170px;
+    color: white;
+    background-color: #31a0c2;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+/* End edit of the button */
+.birth {
+    width: 499px;
+    height: 50px;
+    color: #31a0c2;
+    background-color: rgba(250,250,250,0.1);
+    border-style: hidden;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.name {
+    width: 244px;
+    height: 50px;
+    font-size: large;
+    border-style: hidden;
+    background-color: rgba(250,250,250,0.1);
+    margin-bottom: 20px;
+}
+
+.grad {
+    background-color: #31a0c2;
+    border-radius: 50px;
+    margin-right: 1000px;
+    margin-left: 18px;
+    width: 60;
+    height: 65;
+}

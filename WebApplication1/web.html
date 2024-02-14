@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+</head>
+<title>Web Course</title>
+<link rel="stylesheet" href="Css/web.css">
+<body>
+    <h1>Web Course</h1>
+
+    <h3>Course Information</h3>
+    <p>This web course provides an introduction to HTML, CSS, and JavaScript. It covers the basics of web development and helps you build a strong foundation in creating websites.</p>
+
+    <h2>Course Video</h2>
+    <div class="video-container">
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/F4fbwKV9dBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <h2>Number of Visitors</h2>
+    <p id="visitor-count">0</p>
+
+    <h2>Enroll Now</h2>
+    <a class="enroll-link" href="https://www.example.com">Click here to enroll in the web course</a>
+
+    <h2>Take the Quiz</h2>
+    <a class="quiz-link" href="quiz.html">
+        <button>Take Quiz</button>
+    </a>
+
+    <div class="certificate">
+        <h2>Certificate</h2>
+        <h3>Congratulations, [Name]!</h3>
+        <p>You have successfully completed the quiz and scored <strong>[Score]</strong>.</p>
+    </div>
+
+    <script>
+    // Track visitor count
+    let visitorCountWEB = 0;
+    if (localStorage.getItem("visitorCountWEB")) {
+      visitorCountWEB = parseInt(localStorage.getItem("visitorCountWEB"));
+    }
+    visitorCountWEB++;
+    localStorage.setItem("visitorCountWEB", visitorCountWEB);
+    document.getElementById("visitor-count").textContent = visitorCountWEB;
+
+     // Quiz functionality
+    // const quizStartBtn = document.querySelector(".quiz-start-btn");
+    //const quizContainer = document.querySelector(".quiz-container");
+    //const certificateContainer = document.querySelector(".certificate");
+
+    //quizStartBtn.addEventListener("click", () => {
+      //quizContainer.style.display = "block";
+      //quizStartBtn.style.display = "none";
+    //});
+
+    // On quiz completion, store certificate data and display certificate
+
+
+
+    </script>
+</body>
+</html>

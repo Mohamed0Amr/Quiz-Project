@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+</head>
+<title>AI Course</title>
+<link rel="stylesheet" href="Css/ai.css">
+<body>
+    <h1>AI Course</h1>
+
+    <h2>Course Information</h2>
+    <p>Learn the essential foundations of AI: the programming tools (Python, NumPy, PyTorch),
+    <p>the math (calculus and linear algebra), </p>
+    <p>and the key techniques of neural networks (gradient descent and backpropagation).</p>
+
+    <!-- <h3>Course Video</h3> -->
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dv9q7Ema40k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <h2>Number of Visitors</h2>
+    <p id="visitor-count">0</p>
+
+    <h2>Enroll Now</h2>
+    <a class="enroll-link" href="https://www.example.com">Click here to enroll in the Ai course</a>
+
+    <h2>Take the Quiz</h2>
+    <a class="quiz-link" href="quizai.html">
+        <button>Take Quiz</button>
+    </a>
+
+
+
+    <script>
+    // Track visitor count
+    let visitorcountAi = 0;
+    if (localStorage.getItem("visitorcountAi")) {
+      visitorcountAi = parseInt(localStorage.getItem("visitorcountAi"));
+    }
+    visitorcountAi++;
+    localStorage.setItem("visitorcountAi", visitorcountAi);
+    document.getElementById("visitor-count").textContent = visitorcountAi;
+
+
+
+
+    </script>
+</body>
+</html>
